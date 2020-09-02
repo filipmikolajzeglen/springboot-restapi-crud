@@ -38,8 +38,11 @@ public class VideoCassetteManager {
 
     @EventListener(ApplicationReadyEvent.class)
     public void fillDB() {
-        save(new VideoCassette(1L, "Harry Potter", LocalDate.of(2010,1,1)));
+        save(new VideoCassette(1L, "Harry Potter 1", LocalDate.of(2010,1,1)));
         save(new VideoCassette(2L, "Harry Potter 2", LocalDate.of(2011,1,1)));
         save(new VideoCassette(3L, "Harry Potter 3", LocalDate.of(2012,1,1)));
+        save(new VideoCassette(4L, "Harry Potter 4", LocalDate.of(2013,1,1)));
+        save(new VideoCassette(5L, "Harry Potter 5", LocalDate.of(2014,1,1)));
+        save(new VideoCassette(6L, "Harry Potter 6", LocalDate.of(2015,1,1)));
     }
 }
